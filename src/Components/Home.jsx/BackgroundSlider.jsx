@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Navigation from "../Navigation";
-
+// import image1 from "/public/images/S1.jpg"
 const BackgroundSlider = () => {
   const [bgimage, setBgimage] = useState(0);
 
   const images = [
-    "url('/public/images/S1.jpg')",
-    "url('/public/images/S2.jpg')",
-    "url('/public/images/S3.jpg')",
+    
+    "url('https://ik.imagekit.io/js3v2388q/e-commerce/S1.jpg?updatedAt=1712297342035')",
+    "url('https://ik.imagekit.io/js3v2388q/e-commerce/S3.jpg?updatedAt=1712297342255')",
+    "url('https://ik.imagekit.io/js3v2388q/e-commerce/S2.jpg?updatedAt=1712297342321')",
   ];
 
   useEffect(() => {
