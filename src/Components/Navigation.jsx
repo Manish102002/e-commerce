@@ -15,7 +15,7 @@ const Navigation = () => {
         </div>
         <div className=" cursor-pointer">
           <img
-            src="/public/images/logo.svg"
+            src="https://ik.imagekit.io/js3v2388q/e-commerce/logo.svg?updatedAt=1712297342294"
             alt=""
             className="absolute lg:top-[25px] md:top-6 sm:top-7 top-[26px] left-0 right-0 mx-auto  inset-0 lg:text-2xl md:text-2xl sm:text-2xl w-20 lg:w-40 h-7"
           />
